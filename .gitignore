@@ -2,3 +2,7 @@
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+#.pem /////////// para nao compartilhar a chave da minha aws (como o repo ta privado nao precisa)

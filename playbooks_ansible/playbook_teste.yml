@@ -1,4 +1,4 @@
-- hosts: users
+- hosts: terraform
   tasks:
   - name: criar arquivo
     copy:

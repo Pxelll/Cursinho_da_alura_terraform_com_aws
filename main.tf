@@ -25,6 +25,6 @@ resource "aws_instance" "maquina_virtual" {
   #               nohup busybox httpd -f -p 8080 &
   #               EOF
   tags = {
-    Name = "Alura_Terraform"
+    Name = "terraform_ansible_python"
   }
 }

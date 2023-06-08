@@ -7,7 +7,7 @@
       - virtualenv
       update_cache: yes
     become: yes
-  - name: dependencies install with pip (django and django rest)
+  - name: dependencies install with pip in a virutal env (django and django rest)
     pip:
       virtualenv: /home/ubuntu/thiago/venv
       name:

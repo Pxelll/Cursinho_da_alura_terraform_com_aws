@@ -1,1 +1,1 @@
-ansible-playbook playbooks_ansible/playbook_teste.yml -u ubuntu --private-key terraform_alura.pem
+ansible-playbook playbooks_ansible/playbook_teste.yml -u ubuntu --private-key terraform_alura.pem -i hosts.yml

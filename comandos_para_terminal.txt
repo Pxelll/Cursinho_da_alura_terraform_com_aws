@@ -1,1 +1,4 @@
 ansible-playbook playbooks_ansible/playbook_teste.yml -u ubuntu --private-key terraform_alura.pem -i hosts.yml
+. venv/bin/activate
+django-admin startproject app_test .
+python manage.py runserver 0.0.0.0:8000
